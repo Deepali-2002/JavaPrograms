@@ -34,7 +34,7 @@ public class Runner {
     }
 
     public static void main(String[] args) throws NumberFormatException, IOException {
-        int t = Integer.parseInt(br.readLine().trim());
+        int t = Integer.parseInt(br.readLine().trim()); // using the trim function
 
         while(t > 0) {
 
